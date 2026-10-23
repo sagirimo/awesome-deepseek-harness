@@ -955,6 +955,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - 监理日志核对：依据 GB/T 50319-2013 等公开文件核对监理日志的跨日连续性与旁站覆盖，仅提示差异，不作出定性结论。
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - 控制图台账核对：按控制图常数表重算控制限并交叉核对 Cp/Cpk，只就台账自身的算术与常数表一致性提示差异（规则包采用 GB/T 17989.2—2020，该标准替代已废止的 GB/T 4091—2001）。
 - [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
+- [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) - 面向医生和湿实验科研人员的生信分析智能体，提供桌面版和 `dsh-biodsh` 插件包（npm）：BioDSH 智能体预设、17 个与 R 逐项对照过的分析技能（单细胞、bulk RNA-seq limma-voom、生存分析、稳健标准误回归、方差分析）、每条消息从 2000+ 技能库中自动挑选技能，以及按时间/步数的收敛护栏。
 ## Tools & Utilities
 
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
